@@ -1,0 +1,90 @@
+site_name: Estructuras de Datos en Python — ITBA
+site_description: Material de referencia para la materia Estructuras de Datos y Programación — ITBA
+site_author: Informática General 71.45
+repo_url: https://gitlab.com/ninfadelgado/Resumen-Estructuras-Datos-Python
+repo_name: ninfadelgado/Resumen-Estructuras-Datos-Python
+edit_uri: ""
+
+theme:
+  name: material
+  language: es
+  icon:
+    repo: fontawesome/brands/gitlab
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/ninfadelgado/Resumen-Estructuras-Datos-Python
+
+copyright: Informática General 71.45 — ITBA
+
+nav:
+  - Inicio: index.md
+  - Fundamentos:
+      - Introducción: fundamentos/introduccion.md
+      - Complejidad Big O: fundamentos/big-o.md
+  - Estructuras Secuenciales:
+      - Listas: estructuras-secuenciales/listas.md
+      - Tuplas: estructuras-secuenciales/tuplas.md
+  - Estructuras basadas en Hash:
+      - Conjuntos: estructuras-hash/conjuntos.md
+      - Diccionarios: estructuras-hash/diccionarios.md
+  - Estructuras Lineales:
+      - Pilas: estructuras-lineales/pilas.md
+      - Colas: estructuras-lineales/colas.md
+      - Listas Enlazadas: estructuras-lineales/listas-enlazadas.md
+  - Estructuras Especializadas:
+      - Arrays NumPy: estructuras-especializadas/arrays-numpy.md
+  - Estructuras Jerárquicas:
+      - Árboles Binarios de Búsqueda: estructuras-jerarquicas/bst.md
+  - Referencia:
+      - Guía de Selección: referencia/guia-seleccion.md
+      - Tabla Comparativa: referencia/tabla-comparativa.md
+      - Conclusiones: referencia/conclusiones.md
