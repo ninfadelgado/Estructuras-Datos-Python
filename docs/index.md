@@ -1,6 +1,6 @@
 # Estructuras de Datos en Python
 
-Material de referencia para la materia **Informática General 71.45** — ITBA.
+Material de referencia para la materia **Estructuras de Datos 71.45** — ITBA.
 
 Está orientado a estudiantes que ya programan en Python y quieren profundizar su comprensión de las estructuras de datos fundamentales, sus características, complejidades y criterios de selección.
 
