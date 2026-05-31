@@ -63,7 +63,7 @@ extra:
     - icon: fontawesome/brands/gitlab
       link: https://gitlab.com/ninfadelgado/Resumen-Estructuras-Datos-Python
 
-copyright: Informática General 71.45 — ITBA
+copyright: Estructura de Datos 71.45 — ITBA
 
 nav:
   - Inicio: index.md
