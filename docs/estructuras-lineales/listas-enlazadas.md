@@ -104,6 +104,8 @@ flowchart LR
 
    Por eso, el costo total deja de ser O(1).
 
+---  
+
 
 ## ¿Cuándo utilizar esta estructura?
 
