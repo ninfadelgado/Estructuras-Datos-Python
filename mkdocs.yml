@@ -74,6 +74,7 @@ nav:
       - Listas: estructuras-secuenciales/listas.md
       - Tuplas: estructuras-secuenciales/tuplas.md
   - Estructuras basadas en Hash:
+      - Concepto de Hash: estructuras-hash/hash-concepto.md
       - Conjuntos: estructuras-hash/conjuntos.md
       - Diccionarios: estructuras-hash/diccionarios.md
   - Estructuras Lineales:
