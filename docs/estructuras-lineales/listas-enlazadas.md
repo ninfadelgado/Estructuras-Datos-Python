@@ -92,7 +92,7 @@ flowchart LR
 
    Se desea insertar después del valor 30.
 
-   ```mermaid
+```mermaid
 flowchart LR
     A["10"] --> B["20"]
     B --> C["30"]
