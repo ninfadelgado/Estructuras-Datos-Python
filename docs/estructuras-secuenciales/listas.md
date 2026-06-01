@@ -31,6 +31,22 @@ flowchart LR
 
 ---
 
+## Implementación interna
+
+Aunque en Python se usa el nombre list, internamente su comportamiento se aproxima más al de un array dinámico (vector dinámico).
+
+Un array dinámico es una estructura que almacena elementos en posiciones consecutivas y que tiene la capacidad de crecer o reducirse automáticamente cuando es necesario.
+
+Para lograrlo, el sistema reserva espacio adicional y, cuando ese espacio se agota, crea un bloque más grande y reorganiza los elementos.
+
+Esta implementación permite que:
+
+- Acceder mediante índices sea muy eficiente.
+- Agregar elementos al final normalmente sea rápido.
+- Algunas inserciones o eliminaciones requieran reorganizar parte de la estructura.
+
+---
+
 ## Crecimiento dinámico de memoria
 
 Cuando una lista se queda sin espacio, Python busca un bloque mayor, copia los elementos y libera el bloque anterior:
