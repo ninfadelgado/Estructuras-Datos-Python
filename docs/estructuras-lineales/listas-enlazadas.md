@@ -16,6 +16,8 @@ flowchart LR
 ```
 
 ---
+![Lista Enlazada](representacion-enlazada.png)
+---
 
 ## Inserción en la cabeza — O(1)
 
