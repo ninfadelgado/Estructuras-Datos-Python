@@ -16,7 +16,7 @@ flowchart LR
 ```
 
 ---
-## Representación lista Enlazada Simple vs Lista
+## Representación lista Enlazada Simple vs Lista Secuencial
 
 ![Lista Enlazada](representacion-enlazada.png)
 ---
